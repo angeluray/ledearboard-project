@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Leaderboard</h1>
+    <main>
+      <section id="first-section">
+        <header class="sub-section"> 
+          <h2 id="first-subtitle">Recent scores</h2>
+          <button id="myRefresh" type="submit">Refresh</button>
+        </header>
+              <ul id="myList">
+                 <li>Name: 100</li>
+                 <li>Name: 20</li>
+                 <li>Name: 50</li>
+                 <li>Name: 78</li>
+                 <li>Name: 125</li>
+                 <li>Name: 77</li>
+                 <li>Name: 42</li>
+              </ul>
+      </section>
+
+      <section id="second-section">
+        <h2 id="second-subtitle">Add your score</h2>
+          <form action="">
+            <input type="text" name="myname" id="myName" placeholder="Your name">
+            <input type="number" name="mynumber" id="myNumber" placeholder="Your score">
+            <input type="submit" value="Submit" id="mySubmit">
+          </form>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
