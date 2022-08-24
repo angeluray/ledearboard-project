@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+  font-size: 70px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 45px;
+  max-width: 70%;
+  margin: 15px auto;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bolder;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+#first-section {
+  width: 30%;
+}
+
+.sub-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 19px;
+}
+
+button {
+  box-shadow: 0.5px 0.5px 0 2px black;
+  border: 1.5px solid #000;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+#first-subtitle {
+  font-size: 55px;
+}
+
+#myRefresh {
+  width: 100px;
+  height: 40px;
+}
+
+#myList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #000;
+}
+
+li {
+  padding: 10px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+#myList li:nth-child(even) {
+  background: #fff;
+}
+
+#myList li:nth-child(odd) {
+  background: #ccc;
+}
+
+#second-subtitle {
+  font-size: 55px;
+  margin-bottom: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+input {
+  width: 360px;
+  padding: 5px;
+  border: 2px solid #000;
+  font-weight: 600;
+  box-shadow: 0.5px 0.5px 0 2px black;
+  padding: 7px;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  color: #000;
+}
+
+input[type=submit] {
+  width: 90px;
+  margin-top: 8px;
+  box-shadow: 0.5px 0.5px 0 2px black;
+  border: 1.5px solid #000;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fff;
+}
