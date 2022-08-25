@@ -1,7 +1,6 @@
 import './style.css';
 import { addPlayer } from './modules/add.js';
 import displayUserScores from './modules/display.js';
-import getScores from './modules/get.js';
 
 const myBtn = document.getElementById('myForm');
 const myRefreshBtn = document.getElementById('myRefresh');

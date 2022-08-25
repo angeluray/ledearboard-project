@@ -1,5 +1,3 @@
-import displayUserScores from './display.js';
-
 const myPlayerName = document.getElementById('myName');
 const myScore = document.getElementById('myNumber');
 const myApiKey = 'zS0rIfoFWrgvPqHF0nHr';
