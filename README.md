@@ -60,8 +60,7 @@ To get a local copy up and running follow these simple steps.
 - **Webpack**
 
 ## 🌎 Live Demo:
-- [Leaderboard App](https://angeluray.github.io/leaderboard-project/)
-> The link is currently not available, right after got the project approved it will be here. 
+- [Leaderboard App](https://angeluray.github.io/leaderboard-project/dist)
 
 ## Authors 
 ### 👤 Angel Uray
