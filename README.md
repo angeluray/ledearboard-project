@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple steps.
 - **Webpack**
 
 ## 🌎 Live Demo:
-- [Leaderboard App](https://angeluray.github.io/leaderboard-project/dist)
+- [Leaderboard App](https://willowy-kringle-4b3faf.netlify.app/)
 
 ## Authors 
 ### 👤 Angel Uray
